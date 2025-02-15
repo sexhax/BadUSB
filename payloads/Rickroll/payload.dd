@@ -1,0 +1,22 @@
+GUI r
+DELAY 800
+STRING brave https://www.youtube.com/watch?v=xvFZjo5PgG0
+DELAY 800
+ENTER
+
+GUI r
+DELAY 800
+STRING notepad
+DELAY 800
+ENTER
+DELAY 800
+STRING Made by Eclipse (sexhax) on github <3
+ENTER
+ENTER
+ENTER
+ENTER
+ENTER
+ENTER
+ENTER
+ENTER
+
