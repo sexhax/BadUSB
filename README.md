@@ -7,9 +7,9 @@
 
 | Payload Name          | Category       | Risk Level | Plug'n'Play | Description                                                                 |
 |-----------------------|----------------|------------|-------------|-----------------------------------------------------------------------------|
-| RED (Remote Executable Download) | Remote Access  | 🔴 High    | ⚠️ Requires Setup | Downloads and executes remote binaries via PowerShell                      |
-| Backdoor              | Persistence    | 🔴 High    | ✅          | Creates a new user on the (windows) pc this is run on                      |
-| RickRoll V2           | Prank          | 🟢 Low     | ✅          | Modern implementation with direct video streaming                          |
+| RED (Remote Executable Download) | Remote Access  | 🔴 High    | ⚠️ Requires Setup | Downloads and executes remote binaries via PowerShell.                     |
+| Backdoor              | Persistence    | 🔴 High    | ✅          | Creates a new user on the (windows) pc this is run on.                     |
+| RickRoll V2           | Prank          | 🟢 Low     | ✅          | Modern implementation with direct video streaming.                         |
 
 ## 📦 Installation
 ```sh
