@@ -21,7 +21,7 @@ cd badusb-collection
 ## 🛠️ Payload Setup Guide
 - **🔴 RED** (Remote Executable Download)
 
-You need to provide your own domain.
+You need to provide your own domain, for the executable to be downloadable.
 
 - **Backdoor**
 
